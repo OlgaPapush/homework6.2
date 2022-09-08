@@ -14,6 +14,14 @@ public class Main {
     public static void main(String[] args) {
 
                     // задание 1
+        int salaries [ ]  = generateRandomArray ();
+        int sum = 0;
+        for (int i = 0; i < salaries.length; i++) {
+         sum += salaries[i];
+
+        }
+        System.out.println( " Сумма трат за месяц составила" + salaries + " рублей" );
+
 
 
     }
